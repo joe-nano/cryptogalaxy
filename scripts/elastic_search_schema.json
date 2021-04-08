@@ -1,0 +1,33 @@
+{
+    "mappings": {
+        "properties": {
+            "channel": {
+                "type": "keyword"
+            },
+            "exchange": {
+                "type": "keyword"
+            },
+            "market": {
+                "type": "keyword"
+            },
+            "trade_id": {
+                "type": "unsigned_long"
+            },
+            "side": {
+                "type": "keyword"
+            },
+            "size": {
+                "type": "double"
+            },
+            "price": {
+                "type": "double"
+            },
+            "timestamp": {
+                "type": "date"
+            },
+            "created_at": {
+                "type": "date"
+            }
+        }
+    }
+}
