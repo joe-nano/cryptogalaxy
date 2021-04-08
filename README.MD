@@ -2,7 +2,7 @@
 
 Cryptogalaxy is an app which will get any cryptocurrencies ticker and trade data from multiple exchanges through REST / websocket and save it into multiple storage systems.
 
-Currently supported exchanges : FTX, Coinbase Pro, Binance, Bitfinex, HBTC.
+Currently supported exchanges : FTX, Coinbase Pro, Binance, Bitfinex, HBTC.  
 Currently supported storages : Terminal Output, MySQL, Elastic Search.
 
 ---------------------------------------
