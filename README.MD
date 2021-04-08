@@ -631,7 +631,11 @@ Cryptogalaxy is licensed under the [MIT License](./main/LICENSE).
 
 This is not a big app. But still, if you find this is useful and want to donate, please do. (Donation is sent directly to me, Pavan Shetty, original author of the app)
 
-**BTC** : 1LkR7QwpKqFEd6Gdueeebfun3djLocjtuu
+**BTC** : 1LkR7QwpKqFEd6Gdueeebfun3djLocjtuu  
+
+**ETH** : 0xf5fe68b7a69167a897281c4e400ecfb8a074b060  
+
+**LTC** : LMqtwMpV6VdWGDn5P4sUWJVqST6MceGt9B
 
 **Thank you all!** 
 
