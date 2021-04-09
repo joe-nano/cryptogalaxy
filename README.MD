@@ -140,7 +140,7 @@ Configuration format for the app is JSON.
  
 Example configuration file can be found at [./examples/config.json](./examples/config.json)
  
-```
+```json
 {
    "exchanges": [
        {
@@ -443,7 +443,7 @@ Possible values : error, info, debug.
  
 Script can be found at [./scripts/mysql_schema.sql](./scripts/mysql_schema.sql).
  
-```
+```sql
 CREATE TABLE `ticker` (
  `id` bigint unsigned NOT NULL AUTO_INCREMENT,
  `exchange` varchar(32) NOT NULL,
@@ -455,7 +455,7 @@ CREATE TABLE `ticker` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
  
-```
+```sql
 CREATE TABLE `trade` (
  `id` bigint unsigned NOT NULL AUTO_INCREMENT,
  `exchange` varchar(32) NOT NULL,
@@ -474,7 +474,7 @@ CREATE TABLE `trade` (
  
 Script can be found at [./scripts/elastic_search_schema.json](./scripts/elastic_search_schema.json).
  
-```
+```json
 {
    "mappings": {
        "properties": {
