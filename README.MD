@@ -65,8 +65,6 @@ For some personal projects I wanted to have cryptocurrency data from multiple ex
  
 Once the app was in its final stage, I thought it may help other developers who want the same set of data. So open sourcing it. 
  
-P.S. I hope open sourcing this app also adds value to my resume, as i am looking for a software engineer job.
- 
 ## Should you use it
  
 If you already have a script / library / service to get cryptocurrencies data and it is working fine then probably you should continue with that. Else if you have an idea for displaying cryptocurrencies data in a beautiful way and have not yet decided on the way of getting it then you should try it.
