@@ -149,9 +149,10 @@ Example configuration file can be found at [./examples/config.json](./examples/c
                    "info": [
                        {
                            "channel": "ticker",
-                           "connector": "websocket",
-                           "websocket_consider_interval_sec": 10,
+                           "connector": "rest",
+                           "rest_ping_interval_sec": 10,
                            "storages": [
+                               "terminal",
                                "mysql",
                                "elastic_search"
                            ]
@@ -570,47 +571,56 @@ Shoutout to modules on which this app depends on :
  
 * Elasticsearch Client
  
-The official Go client for Elasticsearch. 
+The official Go client for Elasticsearch.
+
 [https://github.com/elastic/go-elasticsearch](https://github.com/elastic/go-elasticsearch)
  
 * MySQL Driver
  
-Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package. 
+Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package.
+
 [https://github.com/go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)
  
 * Gobwas Websocket Library
  
-Tiny WebSocket library for Go. 
+Tiny WebSocket library for Go.
+
 [https://github.com/gobwas/ws](https://github.com/gobwas/ws)
  
 * JSON Parser
  
 A high-performance 100% compatible drop-in replacement of "encoding/json". 
+
 [https://github.com/json-iterator/go](https://github.com/json-iterator/go)
  
 * Pkg Errors
  
-Simple error handling primitives.  
+Simple error handling primitives.
+
 [github.com/pkg/errors](github.com/pkg/errors)
  
 * Zerolog Logger
  
-Zero Allocation JSON Logger. 
+Zero Allocation JSON Logger.
+
 [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
  
 * Sync Pkg 
  
-Go concurrency primitives in addition to the ones provided by the language and "sync" and "sync/atomic" packages.   
+Go concurrency primitives in addition to the ones provided by the language and "sync" and "sync/atomic" packages.
+
 [golang.org/x/sync](golang.org/x/sync)
  
 * GoReleaser Github Action 
  
 GitHub Action for GoReleaser. 
+
 [https://github.com/goreleaser/goreleaser-action](https://github.com/goreleaser/goreleaser-action) 
  
 * Golangci-lint Github Action 
  
 Official GitHub action for golangci-lint from it's authors. 
+
 [https://github.com/golangci/golangci-lint-action](https://github.com/golangci/golangci-lint-action)
  
 ## Contributing
